@@ -1,0 +1,30 @@
+
+.imagen{
+margin: 200px;
+height: 100px;
+}
+.button{
+    background-color: #0011ff;
+}
+body {
+background-color: rgb(0, 0, 0);
+}
+
+.carousel {
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+}
+
+.carousel-slides {
+    display: flex;
+    transition: transform 0.6s ease-in-out;
+}
+
+.slide {    
+    min-width: 100%;
+    box-sizing: border-box;
+    background: #838383;
+    padding: 30px;
+    text-align: center;
+}

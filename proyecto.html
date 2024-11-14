@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tienda de Autopartes</title>
+    <link rel="stylesheet" href="stylesproyecto.css">
+</head>
+<body>
+    <header>
+        <h1>Tienda de Autopartes</h1>
+    </header>
+
+    <main>
+        <section class="product">
+            <img src="filtro.jpg" alt="Filtro de Aceite">
+            <h2>Filtro de Aceite</h2>
+            <p>Precio: $119.00</p>
+            <button onclick="comprar('Filtro de Aceite')">Comprar</button>
+        </section>
+
+        <section class="product">
+            <img src="shopping.webp" alt="Batería de Auto">
+            <h2>Batería de Auto</h2>
+            <p>Precio: $3,299.00</p>
+            <button onclick="comprar('Batería de Auto')">Comprar</button>
+        </section>
+
+        <section class="product">
+            <img src="llan.jpg" alt="Neumático">
+            <h2>Neumático</h2>
+            <p>Precio: $1850.00</p>
+            <button onclick="comprar('Neumático')">Comprar</button>
+        </section>
+
+        <section class="product">
+            <img src="buji.jpg" alt="Bujía">
+            <h2>Bujía</h2>
+            <p>Precio: $300.00</p>
+            <button onclick="comprar('Bujía')">Comprar</button>
+        </section>
+
+        <section class="product">
+            <img src="pastilla.jpg" alt="Pastillas de Freno">
+            <h2>Pastillas de Freno</h2>
+            <p>Precio: $1200.00</p>
+            <button onclick="comprar('Pastillas de Freno')">Comprar</button>
+        </section>
+
+        <section class="product">
+            <img src="faro.jpg" alt="Faro">
+            <h2>Faro</h2>
+            <p>Precio: $3500.00</p>
+            <button onclick="comprar('Faro')">Comprar</button>
+        </section>
+
+        <section class="product">
+            <img src="imageszzz.jpg" alt="Amortiguador">
+            <h2>Amortiguador</h2>
+            <p>Precio: $2,299.00</p>
+            <button onclick="comprar('Amortiguador')">Comprar</button>
+        </section>
+
+        <section class="product">
+            <img src="radi.jpg" alt="Radiador">
+            <h2>Radiador</h2>
+            <p>Precio: $2,851.00</p>
+            <button onclick="comprar('Radiador')">Comprar</button>
+        </section>
+
+        <section class="product">
+            <img src="escape.jpg" alt="Tubo de Escape">
+            <h2>Tubo de Escape</h2>
+            <p>Precio: $299.00</p>
+            <button onclick="comprar('Tubo de Escape')">Comprar</button>
+        </section>
+
+        <section class="product">
+            <img src="correa.jpg" alt="Correa de Distribución">
+            <h2>Correa de Distribución</h2>
+            <p>Precio: $2,434.00</p>
+            <button onclick="comprar('Correa de Distribución')">Comprar</button>
+        </section>
+    </main>
+
+    <script>
+        function comprar(producto) {
+            alert(`Has comprado: ${producto}`);
+        }
+    </script>
+</body>
+</html>
